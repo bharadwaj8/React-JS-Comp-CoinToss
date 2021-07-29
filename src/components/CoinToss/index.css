@@ -1,0 +1,45 @@
+.bg {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.heading {
+  color: #a35200;
+}
+.sub-heading {
+  color: #334155;
+  font-weight: bold;
+}
+.image {
+  width: 180px;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 5px;
+  border: 0px;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+}
+.result {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.item {
+  color: #475569;
+  margin-right: 20px;
+}
